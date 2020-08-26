@@ -1,0 +1,48 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container_component__1
+{
+    width: 600px;
+    margin: 20rem auto;
+}
+
+#container_component__1 input, button
+{
+    padding: 0.7rem;
+}
+
+#container_component__1 button:hover
+{
+cursor: pointer;
+}
+
+#component__1
+{
+    width: 400px;
+    height: 100%;
+    border: 2px solid black;
+    padding: 1rem;
+}
+
+.items 
+{
+    list-style: decimal;
+    margin-top: 0.5rem;
+    position: relative;
+}
+
+.items::after
+{
+content: '';
+position: absolute;
+bottom: -0.2rem;
+left: 0;
+width: 100%;
+height: 1px;
+background-color: black;
+}
