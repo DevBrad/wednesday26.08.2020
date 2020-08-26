@@ -12,6 +12,7 @@
 
 #container_component__1 input, button {
   padding: 0.7rem;
+  width: 198px;
 }
 
 #container_component__1 button:hover {
@@ -22,7 +23,7 @@
   width: 400px;
   height: 100%;
   border: 2px solid black;
-  padding: 1rem;
+  padding: 1.7rem;
 }
 
 .items {

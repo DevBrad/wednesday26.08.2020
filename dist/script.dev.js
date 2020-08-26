@@ -12,5 +12,13 @@ addContent_btn.addEventListener('click', addContent);
 function addContent() {
   var ul = document.getElementById('component__1');
   var li = document.createElement('li');
-  ul.appendChild(li);
+  var input = document.getElementById('content_input').value;
+  li.setAttribute('class', 'items');
+
+  if (input == '') {
+    alert('Please fill out the field');
+  } else {
+    li.textContent = input;
+    ul.appendChild(li);
+  }
 }

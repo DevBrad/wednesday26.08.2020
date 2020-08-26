@@ -22,8 +22,17 @@ function showcomponent__1(){
 
      const ul = document.getElementById('component__1')
      const li = document.createElement('li')
+     const input = document.getElementById('content_input').value
+     li.setAttribute('class','items')
+
+    if(input == ''){
+        
+        alert('Please fill out the field')
+
+    } else {
+
+     li.textContent = input
      ul.appendChild(li)
 
-
-
+    }
  }
