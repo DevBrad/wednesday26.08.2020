@@ -13,8 +13,17 @@
 
 #container_component__1 input, button
 {
-    padding: 0.7rem;
-    width: 198px;
+    padding: 1rem;
+    width: 100%;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+#container_component__1 button {
+    letter-spacing: 0.1rem;
+    border: none;
+    border-radius: 0.2rem;
+    background-color: orangered;
+    font-weight: 600;
 }
 
 #container_component__1 button:hover
@@ -24,7 +33,7 @@ cursor: pointer;
 
 #component__1
 {
-    width: 400px;
+    width: 100%;
     height: 100%;
     border: 2px solid black;
     padding: 1.7rem;
